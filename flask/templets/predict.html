@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crime Classification</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Crime Classification System</h1>
+        <p>Upload an image for crime classification:</p>
+        <form action="/classify" method="post" enctype="multipart/form-data">
+            <input type="file" name="image" accept="image/*">
+            <input type="submit" value="Classify">
+        </form>
+        <button id="redirectButton">Go to Results</button>
+    </div>
+</body>
+</html>
